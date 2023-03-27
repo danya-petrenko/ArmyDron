@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__inner">
+        <a class="logo" href="/">
+          <img src="./icon.svg" alt="logo">
+        </a>
+        <h1>Армія<br>Дронів</h1>
+        <button type="button" class="btn">Зробити внесок</button>
+        <img class="header__img" src="./header_dron.png" alt="Dron">
+      </div>
+    </header>
+    <main>
+      <div class="main-inner">
+         <h2>Мрієте, щоб ЗСУ стали ще сильніше, а палало аж до москви?</h2>
+            <p>Кожен день наближає Україну до перемоги.</p>
+            <p>Наскільки довгим буде цей шлях – залежить від нас.</p>
+            <p>Допоможіть зібрати кошти на дрони. Хлопці обіцяють – результат вам</p>
+            <p>сподобається! Адже в кожного з нас єдине бажання, щоб зло на нашій</p>
+            <p>землі було знищено. Ваш внесок важливий. Зробіть його просто зараз!</p>
+      </div>
+      <div class="img-container">
+        <div class="img__center">
+          <img src="./dron_1.jpg" alt="Dron">
+          <img src="./dron_2.jpg" alt="Dron">
+          <img src="./dron_3.jpg" alt="Dron">
+        </div>
+      </div>
+
+
+
+      <div class="form-container">
+        <h2>Зроби благодійний внесок</h2>
+         <form>
+          <div class="label-container">
+            <h3>Оберіть фонд</h3>
+            <label class="label"><input name="fond" type="radio"><span class="span-label"></span><span class="span-text">Фонд Сергія Притули</span></label>
+            <label class="label"><input name="fond" type="radio"> <span class="span-label"></span><span class="span-text">Повернись живим</span></label>
+            <label class="label"><input name="fond" type="radio"><span class="span-label"></span><span class="span-text">Рахунок НБУ</span></label>
+            <label class="label"><input name="fond" type="radio"><span class="span-label"></span><span class="span-text">ЄДопомога</span></label>
+
+          </div>
+          <div class="card-info">
+            <div class="card-info-f">
+              <label><span>Введіть номер картки</span><input type="text" placeholder="XXXX XXXX XXXX XXXX"></label>
+              <label><span>Ім'я на картці</span><input type="text" placeholder="Ваше ім'я"></label>
+            </div>
+            <div class="card-info-s">
+              <div>
+                 <label><span>Термін дії</span><input type="text" placeholder="XX/XX"></label>
+              <label><span>CVV</span><input type="text" placeholder="ХХХ"></label>
+              <button class="btn" type="submit">Підтвердити внесок</button>
+              </div>
+
+            </div>
+          </div>
+         </form>
+      </div>
+
+    </main>
+    <footer>
+      <p>Створено як навчальний проєкт курсу "Знайомство з IT: тестдрайв професій" від Prometheus.</p>
+      <p>Петренко Данііл</p>
+    </footer>
+
+
+  </body>
+</html>
